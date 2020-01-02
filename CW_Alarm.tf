@@ -26,7 +26,7 @@ resource "aws_cloudwatch_metric_alarm" "detection" {
       unit        = "Percent"
 
       dimensions = {
-        InstanceId = "i-0e8db58a363e7305a"
+        InstanceId = "i-XXXXXXXXXXXXX"
       }
     }
   }
@@ -44,7 +44,7 @@ resource "aws_cloudwatch_metric_alarm" "autorecover" {
   threshold           = "1"
   metric_name         = "StatusCheckFailed"
   dimensions = {
-      InstanceId = "i-0e8db58a363e7305a"
+      InstanceId = "i-XXXXXXXXXXXXX"
   }
 }
 
@@ -63,7 +63,7 @@ resource "aws_cloudwatch_metric_alarm" "autorecover_1" {
   threshold           = "85"
   metric_name         = "CPUUtilization"
   dimensions = {
-      InstanceId = "i-0e8db58a363e7305a"
+      InstanceId = "i-XXXXXXXXXXXXX"
   }
 }
 #Instance Alarm Code for CPUUtilization for crossing [90% - CRITICAL Alert].
@@ -81,7 +81,7 @@ resource "aws_cloudwatch_metric_alarm" "autorecover_2" {
   threshold           = "90"
   metric_name         = "CPUUtilization"
   dimensions = {
-      InstanceId = "i-0e8db58a363e7305a"
+      InstanceId = "i-XXXXXXXXXXXXX"
   }
 }
 
@@ -112,8 +112,8 @@ resource "aws_cloudwatch_metric_alarm" "detection_1" {
       period      = "60"
       stat        = "Average"
       dimensions = {
-        InstanceId = "i-0ed95c492126cb6ec"
-        ImageId = "ami-01ce756cc8a299d0a"
+        InstanceId = "i-XXXXXXXXXXXXX"
+        ImageId = "ami-XXXXXXXXXXXXX"
         InstanceType = "t3.xlarge"
         objectname = "Memory"
       }
@@ -149,8 +149,8 @@ resource "aws_cloudwatch_metric_alarm" "detection_2" {
       stat        = "Average"
     
       dimensions = {
-        InstanceId = "i-0ed95c492126cb6ec"
-        ImageId = "ami-01ce756cc8a299d0a"
+        InstanceId = "i-XXXXXXXXXXXXX"
+        ImageId = "ami-XXXXXXXXXXXXX"
         InstanceType = "t3.xlarge"
         objectname = "LogicalDisk"
         instance = "C:"
