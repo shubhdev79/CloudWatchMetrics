@@ -19,13 +19,13 @@ resource "aws_cloudwatch_dashboard" "main" {
                    "AWS/EC2",
                    "CPUUtilization",
                    "InstanceId",
-                   "i-0ed95c492126cb6ec"
+                   "i-XXXXXXXXXXXXX"
                 ],
                   [
                    "AWS/EC2",
                    "CPUUtilization",
                    "InstanceId",
-                   "i-0ed95c492126cb6ec"
+                   "i-XXXXXXXXXXXXX"
                 ]
              ],
              "period":300,
@@ -46,9 +46,9 @@ resource "aws_cloudwatch_dashboard" "main" {
                    "CWAgent",
                    "LogicalDisk % Free Space",
                    "InstanceId",
-                   "i-0ed95c492126cb6ec",
+                   "i-XXXXXXXXXXXXX",
                    "ImageId",
-                   "ami-01ce756cc8a299d0a",
+                   "ami-XXXXXXXXXXXXX",
                    "InstanceType",
                    "t3.xlarge",
                    "objectname",
@@ -60,9 +60,9 @@ resource "aws_cloudwatch_dashboard" "main" {
                    "CWAgent",
                    "LogicalDisk % Free Space",
                    "InstanceId",
-                   "i-0ed95c492126cb6ec",
+                   "i-XXXXXXXXXXXXX",
                    "ImageId",
-                   "ami-01ce756cc8a299d0a",
+                   "ami-XXXXXXXXXXXXX",
                    "InstanceType",
                    "t3.xlarge",
                    "objectname",
