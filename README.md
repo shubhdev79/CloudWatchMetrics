@@ -21,4 +21,4 @@ Roles : Policies :
 -> Create SNS Topic
 -> Create Alarms
 
-![alt text](https://github.com/shubhdev79/CloudWatchMetrics/blob/master/CloudOPs.png)
+![alt text](https://github.com/shubhdev79/CloudWatchMetrics/blob/master/CWMetrics.png)
