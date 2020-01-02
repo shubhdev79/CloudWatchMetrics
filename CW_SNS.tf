@@ -20,6 +20,6 @@ resource "aws_sns_topic" "sample_topic" {
 }
 EOF
       provisioner "local-exec" {
-      command = "aws sns subscribe --region eu-west-3 --topic-arn ${self.arn} --protocol email --notification-endpoint shubham.dixit@verint.com"
+      command = "aws sns subscribe --region eu-west-3 --topic-arn ${self.arn} --protocol email --notification-endpoint XXXXXXXXXXXXX@X.com"
 }
 }
